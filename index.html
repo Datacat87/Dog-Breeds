@@ -40,9 +40,16 @@
           <input type="Enter Dollar Amount to Donate Here">
 
           <button type="button" id="myBtn">Donate!</button>
+          
+          
           <script>
-          document.getElementById("myBtn").addEventListener("click", SubmitDonation);
-          window.alert("Thank you for your donation!");
+
+          function SubmitDonation() {
+            window.alert("Thank you for your donation!");
+          }
+          
+          document.getElementById("myBtn").addEventListener("click", SubmitDonation );
+          
           </script>
     </div>
     </body>
